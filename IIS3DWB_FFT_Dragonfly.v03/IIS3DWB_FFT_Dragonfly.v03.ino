@@ -175,7 +175,7 @@ void setup()
 
    IIS3DWB.selfTest();
 
-   IIS3DWB.init(Ascale); // configure IIS3DWB  
+  //  IIS3DWB.init(Ascale); // configure IIS3DWB  
 
    IIS3DWB.offsetBias(accelBias);
    Serial.println("accel biases (mg)"); Serial.println(1000.0f * accelBias[0]); Serial.println(1000.0f * accelBias[1]); Serial.println(1000.0f * accelBias[2]);

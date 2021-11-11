@@ -39,6 +39,8 @@
  * 
  * Library may be used freely and without limit with attribution.
  */
+
+#include "Arduino.h"
 #include "IIS3DWB.h"
 #include <RTC.h>
 #include "SPI.h"
